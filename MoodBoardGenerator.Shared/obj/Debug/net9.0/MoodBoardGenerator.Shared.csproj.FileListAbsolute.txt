@@ -1,0 +1,11 @@
+D:\CourseFront\MoodBoardGenerator.Shared\bin\Debug\net9.0\MoodBoardGenerator.Shared.deps.json
+D:\CourseFront\MoodBoardGenerator.Shared\bin\Debug\net9.0\MoodBoardGenerator.Shared.dll
+D:\CourseFront\MoodBoardGenerator.Shared\bin\Debug\net9.0\MoodBoardGenerator.Shared.pdb
+D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.AssemblyInfoInputs.cache
+D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.AssemblyInfo.cs
+D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.csproj.CoreCompileInputs.cache
+D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.dll
+D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\refint\MoodBoardGenerator.Shared.dll
+D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.pdb
+D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\ref\MoodBoardGenerator.Shared.dll
