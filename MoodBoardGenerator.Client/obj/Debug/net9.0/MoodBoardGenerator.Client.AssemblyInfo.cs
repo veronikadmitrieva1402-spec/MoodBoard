@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MoodBoardGenerator.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c31113ceafdbe1966eda272c606341e80b4a95e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddd2e45ce096be98d753adea828d7f471487088d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MoodBoardGenerator.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MoodBoardGenerator.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

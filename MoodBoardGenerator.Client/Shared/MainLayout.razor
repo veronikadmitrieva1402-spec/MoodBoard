@@ -27,6 +27,8 @@
         height: 100%;
         width: 100%;
         overflow-x: hidden;
+        background: url('https://img.freepik.com/free-vector/ornamental-vintage-wallpaper_23-2148663182.jpg?semt=ais_hybrid&w=740&q=80') no-repeat center center fixed;
+        background-size: cover;
     }
     
     .page {
@@ -34,17 +36,20 @@
         height: 100vh;
         width: 100vw;
         overflow: hidden;
+        background: rgba(255, 255, 255, 0.1);
     }
     
     .sidebar {
         width: 250px;
         min-width: 250px;
-        background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+        background: rgba(26, 26, 46, 0.9);
+        backdrop-filter: blur(10px);
         color: white;
         padding: 1rem;
         height: 100vh;
         overflow-y: auto;
         flex-shrink: 0;
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     main {
@@ -53,22 +58,27 @@
         flex-direction: column;
         height: 100vh;
         overflow: hidden;
-        background: #f5f5f5;
         min-width: 0;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(5px);
     }
     
     .top-row {
         display: flex;
         justify-content: flex-end;
         padding: 0.75rem 1.5rem;
-        background: white;
-        border-bottom: 1px solid #e5e5e5;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         flex-shrink: 0;
     }
     
     .top-row a {
-        color: #1a1a2e;
+        color: rgba(255, 255, 255, 0.8);
         text-decoration: none;
+    }
+    .top-row a:hover {
+        color: white;
     }
     
     .content {
@@ -80,28 +90,21 @@
         max-width: 100%;
     }
     
-    @@media (max-width: 768px) {
-        .sidebar {
-            width: 200px;
-            min-width: 200px;
-        }
-        .content {
-            padding: 1rem;
-        }
+    .content .hero-section,
+    .content .feature-card,
+    .content .generate-form,
+    .content .edit-form,
+    .content .board-header,
+    .content .board-item,
+    .content .board-card,
+    .content .empty-state {
+        background: rgba(255, 255, 255, 0.9) !important;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
     }
     
-    @@media (max-width: 576px) {
-        .sidebar {
-            width: 100%;
-            min-width: 100%;
-            height: auto;
-            min-height: 60px;
-        }
-        .page {
-            flex-direction: column;
-        }
-        main {
-            height: calc(100vh - 60px);
-        }
+    .content .board-header {
+        background: rgba(255, 255, 255, 0.95) !important;
     }
+    
 </style>
