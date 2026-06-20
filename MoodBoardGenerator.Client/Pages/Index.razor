@@ -14,7 +14,7 @@
 </div>
 
 <div class="features mt-5">
-    <div class="row">
+    <div class="row g-4">
         <div class="col-md-4">
             <div class="feature-card">
                 <h3>Цветовые палитры</h3>
@@ -47,6 +47,8 @@
     .hero-section h1 {
         font-weight: 700;
         color: #1a1a2e;
+        font-size: 2.5rem;
+        word-break: break-word;
     }
     .btn-primary {
         background: #1a1a2e;
@@ -89,5 +91,33 @@
         color: #6c757d;
         font-size: 0.95rem;
         margin: 0;
+    }
+    
+    @@media (max-width: 768px) {
+        .hero-section h1 {
+            font-size: 2rem;
+        }
+        .hero-section .lead {
+            font-size: 1rem;
+        }
+        .btn-primary {
+            padding: 0.6rem 1.5rem;
+            font-size: 1rem;
+        }
+        .feature-card {
+            padding: 1.5rem 1rem;
+        }
+    }
+    
+    @@media (max-width: 576px) {
+        .hero-section h1 {
+            font-size: 1.5rem;
+        }
+        .hero-section {
+            padding: 2rem 1rem;
+        }
+        .feature-card h3 {
+            font-size: 1rem;
+        }
     }
 </style>

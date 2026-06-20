@@ -7,7 +7,7 @@ builder.RootComponents.Add<MoodBoardGenerator.Client.App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { 
-    BaseAddress = new Uri("http://localhost:5259")
+    BaseAddress = new Uri("http://localhost:7000")
 });
 
 builder.Services.AddScoped<IMoodBoardApiService, MoodBoardApiService>();
