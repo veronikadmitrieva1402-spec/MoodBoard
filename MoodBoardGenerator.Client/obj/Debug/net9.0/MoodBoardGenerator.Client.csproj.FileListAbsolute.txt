@@ -36,8 +36,6 @@ D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\Mic
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.VisualBasic.5jhic11w69.wasm
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Primitives.ppgurk2br2.wasm
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.0oj6yc9093.wasm
-D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Shared.tb6dui80st.pdb
-D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Shared.vpxlqqvhw6.wasm
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\mscorlib.sx4ehutq6w.wasm
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\netstandard.ck9kwje9e5.wasm
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.AppContext.40yqyinhr6.wasm
@@ -249,7 +247,6 @@ D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\Sys
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Linq.hy62v1234y.wasm.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.TypeExtensions.eem5k57xno.wasm.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Resources.Writer.385lrg4vgn.wasm.gz
-D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Shared.tb6dui80st.pdb.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.li13h7k6q2.wasm.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Windows.2475zy6onu.wasm.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Data.DataSetExtensions.ij8dth5cat.wasm.gz
@@ -383,7 +380,6 @@ D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\Sys
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.js.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XmlDocument.ez89912bvl.wasm.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Xml.yjr7wyyuz2.wasm.gz
-D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Shared.vpxlqqvhw6.wasm.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.ggt0f3b7q1.wasm.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Drawing.Primitives.97cgn1do7s.wasm.gz
 D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.iemkpfy67m.wasm.gz
@@ -1067,8 +1063,6 @@ D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\qy9q3ftlqj-
 D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\1j2svxnpzr-tjcz0u77k5.gz
 D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\enxldim0fv-tptq2av103.gz
 D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\kfmux4vgbi-lfu7j35m59.gz
-D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\vhwofvgm7t-vpxlqqvhw6.gz
-D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\82884q37kb-tb6dui80st.gz
 D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\staticwebassets.build.json
 D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\staticwebassets.build.json.cache
 D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\staticwebassets.development.json
@@ -1078,10 +1072,16 @@ D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\MoodBoardGenerator.Cli
 D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\refint\MoodBoardGenerator.Client.dll
 D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\MoodBoardGenerator.Client.pdb
 D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\ref\MoodBoardGenerator.Client.dll
-D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Client.m0bkvcsqpr.pdb
-D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Client.zxk3jgoc61.wasm
-D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Client.zxk3jgoc61.wasm.gz
-D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Client.m0bkvcsqpr.pdb.gz
-D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\l6iu97156g-zxk3jgoc61.gz
-D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\mm2xmicq5j-m0bkvcsqpr.gz
-D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\ntb04r3hpd-ekpsi031a7.gz
+D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Client.bk6mzpaixu.pdb
+D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Client.yinpeodnpv.wasm
+D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Shared.3juv7he62a.pdb
+D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Shared.ig7bsl7btl.wasm
+D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Shared.3juv7he62a.pdb.gz
+D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Client.yinpeodnpv.wasm.gz
+D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Client.bk6mzpaixu.pdb.gz
+D:\CourseFront\MoodBoardGenerator.Client\bin\Debug\net9.0\wwwroot\_framework\MoodBoardGenerator.Shared.ig7bsl7btl.wasm.gz
+D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\vhwofvgm7t-ig7bsl7btl.gz
+D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\82884q37kb-3juv7he62a.gz
+D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\l6iu97156g-yinpeodnpv.gz
+D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\mm2xmicq5j-bk6mzpaixu.gz
+D:\CourseFront\MoodBoardGenerator.Client\obj\Debug\net9.0\compressed\ntb04r3hpd-8f6r3ipuzn.gz

@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MoodBoardGenerator.Client",
   "resources": {
-    "hash": "sha256-j1LJxelWnHjn+7sCWdlQ067ZTY8UJoHLzUsfukcHX0s=",
+    "hash": "sha256-bSfxeYyf924CqmgpcN6VKAH8gx3CX/QBaiht6v+j9OU=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.qe23mgxr71.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.flveird317.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,10 +201,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "MoodBoardGenerator.Shared.vpxlqqvhw6.wasm": "MoodBoardGenerator.Shared.wasm",
-      "MoodBoardGenerator.Shared.tb6dui80st.pdb": "MoodBoardGenerator.Shared.pdb",
-      "MoodBoardGenerator.Client.zxk3jgoc61.wasm": "MoodBoardGenerator.Client.wasm",
-      "MoodBoardGenerator.Client.m0bkvcsqpr.pdb": "MoodBoardGenerator.Client.pdb"
+      "MoodBoardGenerator.Shared.ig7bsl7btl.wasm": "MoodBoardGenerator.Shared.wasm",
+      "MoodBoardGenerator.Shared.3juv7he62a.pdb": "MoodBoardGenerator.Shared.pdb",
+      "MoodBoardGenerator.Client.yinpeodnpv.wasm": "MoodBoardGenerator.Client.wasm",
+      "MoodBoardGenerator.Client.bk6mzpaixu.pdb": "MoodBoardGenerator.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.xto5am0qhx.js": "sha256-9e5Vqt0u8nYMGCHU4JfYqrYQExAw3bgi5UYzATgvoJE="
@@ -414,12 +414,12 @@
       "WindowsBase.5f1yvnaer4.wasm": "sha256-sZbAt8RTAmg0USTJj6J32jxvlakGs2AutNm/Bbr5Sc8=",
       "mscorlib.sx4ehutq6w.wasm": "sha256-gLaFs2FD2zCxDmOFrpTh9Y37En7r1yCv1BpjcPkFpgA=",
       "netstandard.ck9kwje9e5.wasm": "sha256-bNmBHwwBfUwMiL+sza9G3xQiNjeEtZksW9XVhj3ravI=",
-      "MoodBoardGenerator.Shared.vpxlqqvhw6.wasm": "sha256-DTDUcFyuZpTpd1WAqvhMC0KkMIBlsmYSJ1T/okTyNRE=",
-      "MoodBoardGenerator.Client.zxk3jgoc61.wasm": "sha256-OcAtQ7wIOz2feu4pf7q8b633fe1tN5MHD+bvXSZaUvY="
+      "MoodBoardGenerator.Shared.ig7bsl7btl.wasm": "sha256-fsWjG7YYCoa/pL6xYR4rBPLm6IPIpY+ukrkkbP/pPsk=",
+      "MoodBoardGenerator.Client.yinpeodnpv.wasm": "sha256-pv6G0TbWbfD/8g9uuO682709sFkN0KuZGM/KifRpj74="
     },
     "pdb": {
-      "MoodBoardGenerator.Shared.tb6dui80st.pdb": "sha256-t7h9AeUSLErLXymY1Ei1NQ1DEXZ22tJHFCNzU3pPPCY=",
-      "MoodBoardGenerator.Client.m0bkvcsqpr.pdb": "sha256-OhzaUwLzpD3izISD3/EuVfVDy/SiwlU4kHhG3akKVlM="
+      "MoodBoardGenerator.Shared.3juv7he62a.pdb": "sha256-saje+rMg9hPiPklDMXTZTfpRKhoMieFxTkwSPKjwdwc=",
+      "MoodBoardGenerator.Client.bk6mzpaixu.pdb": "sha256-RQ71E7o+q+SLNtrP6+0o553ADCX9NlK1lc7xD6v2Sxo="
     }
   },
   "cacheBootResources": true,

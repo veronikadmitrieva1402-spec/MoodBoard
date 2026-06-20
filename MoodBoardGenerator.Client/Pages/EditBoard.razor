@@ -1,0 +1,160 @@
+@page "/editboard/{BoardId:guid}"
+@using MoodBoardGenerator.Shared.Models
+@using MoodBoardGenerator.Client.Services
+@using Microsoft.AspNetCore.Components.Forms
+@inject IMoodBoardApiService ApiService
+@inject NavigationManager Navigation
+
+<PageTitle>Редактирование мудборда</PageTitle>
+
+<div class="edit-container">
+    <div class="edit-form">
+        <h2 class="mb-3">Редактирование мудборда</h2>
+
+        @if (isLoading)
+        {
+            <div class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Загрузка...</span>
+                </div>
+            </div>
+        }
+        else if (board == null)
+        {
+            <div class="alert alert-warning">Мудборд не найден</div>
+        }
+        else
+        {
+            <EditForm Model="@board" OnValidSubmit="@HandleSave">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Название *</label>
+                    <InputText id="name" class="form-control" @bind-Value="board.Name" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="description" class="form-label">Описание</label>
+                    <InputTextArea id="description" class="form-control" @bind-Value="board.Description" rows="3" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="style" class="form-label">Стиль</label>
+                    <InputSelect id="style" class="form-select" @bind-Value="board.Style">
+                        @foreach (MoodStyle style in Enum.GetValues(typeof(MoodStyle)))
+                        {
+                            <option value="@style">@style</option>
+                        }
+                    </InputSelect>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+                    <button type="button" class="btn btn-secondary" @onclick='() => Navigation.NavigateTo($"/board/{BoardId}")'>Отмена</button>
+                </div>
+            </EditForm>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public Guid BoardId { get; set; }
+
+    private MoodBoard? board;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        isLoading = true;
+        try
+        {
+            board = await ApiService.GetMoodBoardAsync(BoardId);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading board: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private async Task HandleSave()
+    {
+        if (board == null) return;
+
+        try
+        {
+            await ApiService.SaveMoodBoardAsync(board, "user-1");
+            Navigation.NavigateTo($"/board/{BoardId}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error saving board: {ex.Message}");
+        }
+    }
+}
+
+<style>
+    .edit-container {
+        display: flex;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+    .edit-form {
+        max-width: 600px;
+        width: 100%;
+        background: white;
+        padding: 2.5rem;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .edit-form h2 {
+        color: #1a1a2e;
+        font-weight: 600;
+    }
+    .form-label {
+        font-weight: 500;
+        color: #1a1a2e;
+    }
+    .form-control, .form-select {
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+        padding: 0.6rem 1rem;
+    }
+    .form-control:focus, .form-select:focus {
+        border-color: #1a1a2e;
+        box-shadow: 0 0 0 0.2rem rgba(26,26,46,0.1);
+    }
+    .btn-primary {
+        background: #1a1a2e;
+        border-color: #1a1a2e;
+        padding: 0.6rem 1.5rem;
+        border-radius: 8px;
+        color: white;
+    }
+    .btn-primary:hover {
+        background: #16213e;
+        border-color: #16213e;
+    }
+    .btn-secondary {
+        background: #6c757d;
+        border-color: #6c757d;
+        padding: 0.6rem 1.5rem;
+        border-radius: 8px;
+        color: white;
+    }
+    .btn-secondary:hover {
+        background: #5a6268;
+        border-color: #5a6268;
+    }
+    .alert {
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    .alert-warning {
+        background: #fff3cd;
+        border: 1px solid #ffeaa7;
+        color: #856404;
+    }
+</style>
