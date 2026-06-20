@@ -21,6 +21,7 @@ D:\CourseFront\MoodBoardGenerator.Server\obj\Debug\net9.0\MoodBoardGenerator.Ser
 D:\CourseFront\MoodBoardGenerator.Server\obj\Debug\net9.0\MoodBoardGenerator.Server.csproj.CoreCompileInputs.cache
 D:\CourseFront\MoodBoardGenerator.Server\obj\Debug\net9.0\MoodBoardGenerator.Server.MvcApplicationPartsAssemblyInfo.cs
 D:\CourseFront\MoodBoardGenerator.Server\obj\Debug\net9.0\MoodBoardGenerator.Server.MvcApplicationPartsAssemblyInfo.cache
+D:\CourseFront\MoodBoardGenerator.Server\obj\Debug\net9.0\MoodBoardGenerator.Server.sourcelink.json
 D:\CourseFront\MoodBoardGenerator.Server\obj\Debug\net9.0\rjimswa.dswa.cache.json
 D:\CourseFront\MoodBoardGenerator.Server\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 D:\CourseFront\MoodBoardGenerator.Server\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json

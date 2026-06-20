@@ -5,6 +5,7 @@ D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Sha
 D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.AssemblyInfoInputs.cache
 D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.AssemblyInfo.cs
 D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.csproj.CoreCompileInputs.cache
+D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.sourcelink.json
 D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.dll
 D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\refint\MoodBoardGenerator.Shared.dll
 D:\CourseFront\MoodBoardGenerator.Shared\obj\Debug\net9.0\MoodBoardGenerator.Shared.pdb
