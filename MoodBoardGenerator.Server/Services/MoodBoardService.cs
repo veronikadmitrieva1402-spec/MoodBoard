@@ -121,12 +121,11 @@ namespace MoodBoardGenerator.Server.Services
 
             for (int i = 0; i < 3; i++)
             {
-                var color = colors[new Random().Next(colors.Length)].Replace("#", "");
                 items.Add(new MoodItem
                 {
                     Id = Guid.NewGuid(),
                     Title = $"Иконка {i + 1}",
-                    ImageUrl = $"https://via.placeholder.com/200x200/{color}/FFFFFF?text={i+1}",
+                    ImageUrl = $"https://picsum.photos/seed/{Guid.NewGuid()}/200/200",
                     Type = MoodItemType.Icon,
                     Description = $"Элемент для темы {theme}"
                 });
